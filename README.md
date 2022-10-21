@@ -11,7 +11,8 @@ A script that automatically updates your IP address to Cloudflare
 5. Paste your token into line 4 so that it shows `cftoken = '<your toke here>'`, keep the parenthesis
 6. login to your cloudflare dashboard, go into the website you want to use this and copy the `Zone ID` on the right side below the `API` section
 7. Paste the string into line 5 so that it shows `cfzone = '<zone id here>'`, keep the parenthesis
-8. Save the file.
+8. Put the record you want the script to update into line 6 so that it shows `cfrecord = '<your record here>'`, keep the parenthesis. The record must be a preexisting A record.
+9. Save the file.
 
 
 ## Running
