@@ -20,7 +20,9 @@ A script that automatically updates your IP address to Cloudflare
  First, open a command prompt or shell at where the file is located
 
 Windows CMD: run `python cfupdate.py` command in CMD
+
 Windows Powershell: run `python .\cfupdate.py` command in Powershell
+
 Other OSes: run `python3 cfupdate.py` command in your shell
 
 
